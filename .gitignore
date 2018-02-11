@@ -67,4 +67,4 @@ fastlane/screenshots
 fastlane/test_output
 
 # bundle
-*/vender/bundle/*
+*/vendor/bundle/*
