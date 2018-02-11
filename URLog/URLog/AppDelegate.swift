@@ -7,6 +7,7 @@
 //
 
 import Cocoa
+import Magnet
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -35,9 +36,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         quitItem.action = #selector(AppDelegate.quit(_:))
         //作成したボタンを追加。
         menu.addItem(quitItem)
+        
+        GlobalShortCut().example()
 
     }
-    
     
     @objc func quit(_ sender: Any){
         //アプリケーションの終了
