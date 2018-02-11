@@ -1,0 +1,6 @@
+framework module Pods_URLog {
+  umbrella header "Pods-URLog-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83899EEB31298B0556FCE993 /* Pods_URLogUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD0A8CE25606667DC4DA4B6 /* Pods_URLogUITests.framework */; };
+		B00F5F9990D011A0D231A8FB /* Pods_URLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D554C1B80C19EEB621D204BB /* Pods_URLog.framework */; };
+		B0A5C0F3202E893800CAC54E /* Magnet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0A5C0F4202E893800CAC54E /* Magnet.framework */; };
+		B0A5C0F6202E8C1A00CAC54E /* GlobalShortCut.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A5C0F5202E8C1A00CAC54E /* GlobalShortCut.swift */; };
 		B0A848B71FFF42C800E46C5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A848B61FFF42C800E46C5B /* AppDelegate.swift */; };
 		B0A848B91FFF42C800E46C5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A848B81FFF42C800E46C5B /* ViewController.swift */; };
 		B0A848BB1FFF42C800E46C5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A848BA1FFF42C800E46C5B /* Assets.xcassets */; };
 		B0A848BE1FFF42C800E46C5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A848BC1FFF42C800E46C5B /* Main.storyboard */; };
 		B0A848CA1FFF42C900E46C5B /* URLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A848C91FFF42C900E46C5B /* URLogTests.swift */; };
 		B0A848D51FFF42C900E46C5B /* URLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A848D41FFF42C900E46C5B /* URLogUITests.swift */; };
+		CED3BB15F84428410B3E63A6 /* Pods_URLogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F325F7EAA416318BDABD0B /* Pods_URLogTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DF44409BCFD90511700F672 /* Pods-URLogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLogUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-URLogUITests/Pods-URLogUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1744A51E47A86D9031472A65 /* Pods-URLogUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLogUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-URLogUITests/Pods-URLogUITests.release.xcconfig"; sourceTree = "<group>"; };
+		545053064E29EB84B38E1B87 /* Pods-URLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-URLog/Pods-URLog.debug.xcconfig"; sourceTree = "<group>"; };
+		B0A5C0F4202E893800CAC54E /* Magnet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Magnet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0A5C0F5202E8C1A00CAC54E /* GlobalShortCut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalShortCut.swift; sourceTree = "<group>"; };
 		B0A848B31FFF42C800E46C5B /* URLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A848B61FFF42C800E46C5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0A848B81FFF42C800E46C5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +56,12 @@
 		B0A848D01FFF42C900E46C5B /* URLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A848D41FFF42C900E46C5B /* URLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLogUITests.swift; sourceTree = "<group>"; };
 		B0A848D61FFF42C900E46C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B148336DDB511B6B777E0C4F /* Pods-URLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLog.release.xcconfig"; path = "Pods/Target Support Files/Pods-URLog/Pods-URLog.release.xcconfig"; sourceTree = "<group>"; };
+		B5F325F7EAA416318BDABD0B /* Pods_URLogTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_URLogTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD0A8CE25606667DC4DA4B6 /* Pods_URLogUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_URLogUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D554C1B80C19EEB621D204BB /* Pods_URLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_URLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F761C48AA50DAE55BD23E629 /* Pods-URLogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLogTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-URLogTests/Pods-URLogTests.release.xcconfig"; sourceTree = "<group>"; };
+		FEED9F17AB2655D89D395DC9 /* Pods-URLogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLogTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-URLogTests/Pods-URLogTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0A5C0F3202E893800CAC54E /* Magnet.framework in Frameworks */,
+				B00F5F9990D011A0D231A8FB /* Pods_URLog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED3BB15F84428410B3E63A6 /* Pods_URLogTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83899EEB31298B0556FCE993 /* Pods_URLogUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +100,8 @@
 				B0A848C81FFF42C900E46C5B /* URLogTests */,
 				B0A848D31FFF42C900E46C5B /* URLogUITests */,
 				B0A848B41FFF42C800E46C5B /* Products */,
+				E37FB62A26C28DDC3A197BB6 /* Pods */,
+				EEBB31A056F49A3FD63DE959 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +124,7 @@
 				B0A848BC1FFF42C800E46C5B /* Main.storyboard */,
 				B0A848BF1FFF42C800E46C5B /* Info.plist */,
 				B0A848C01FFF42C800E46C5B /* URLog.entitlements */,
+				B0A5C0F5202E8C1A00CAC54E /* GlobalShortCut.swift */,
 			);
 			path = URLog;
 			sourceTree = "<group>";
@@ -124,6 +147,30 @@
 			path = URLogUITests;
 			sourceTree = "<group>";
 		};
+		E37FB62A26C28DDC3A197BB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				545053064E29EB84B38E1B87 /* Pods-URLog.debug.xcconfig */,
+				B148336DDB511B6B777E0C4F /* Pods-URLog.release.xcconfig */,
+				FEED9F17AB2655D89D395DC9 /* Pods-URLogTests.debug.xcconfig */,
+				F761C48AA50DAE55BD23E629 /* Pods-URLogTests.release.xcconfig */,
+				0DF44409BCFD90511700F672 /* Pods-URLogUITests.debug.xcconfig */,
+				1744A51E47A86D9031472A65 /* Pods-URLogUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EEBB31A056F49A3FD63DE959 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0A5C0F4202E893800CAC54E /* Magnet.framework */,
+				D554C1B80C19EEB621D204BB /* Pods_URLog.framework */,
+				B5F325F7EAA416318BDABD0B /* Pods_URLogTests.framework */,
+				CFD0A8CE25606667DC4DA4B6 /* Pods_URLogUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0A848D91FFF42C900E46C5B /* Build configuration list for PBXNativeTarget "URLog" */;
 			buildPhases = (
+				D54367A654A2E247FD0FDFC9 /* [CP] Check Pods Manifest.lock */,
 				B0A848AF1FFF42C800E46C5B /* Sources */,
 				B0A848B01FFF42C800E46C5B /* Frameworks */,
 				B0A848B11FFF42C800E46C5B /* Resources */,
+				832405C2E1FC1D91D75C07B7 /* [CP] Embed Pods Frameworks */,
+				0757A8A8ABA64B6626E7F692 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -148,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0A848DC1FFF42C900E46C5B /* Build configuration list for PBXNativeTarget "URLogTests" */;
 			buildPhases = (
+				7AA648B750AA08A5B3BBB99C /* [CP] Check Pods Manifest.lock */,
 				B0A848C11FFF42C900E46C5B /* Sources */,
 				B0A848C21FFF42C900E46C5B /* Frameworks */,
 				B0A848C31FFF42C900E46C5B /* Resources */,
+				48C3FCFA40B169A7C721E5FF /* [CP] Embed Pods Frameworks */,
+				764F6B1499DFB0B4ADD5C469 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -166,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0A848DF1FFF42C900E46C5B /* Build configuration list for PBXNativeTarget "URLogUITests" */;
 			buildPhases = (
+				A88554C56975F935C0CB4602 /* [CP] Check Pods Manifest.lock */,
 				B0A848CC1FFF42C900E46C5B /* Sources */,
 				B0A848CD1FFF42C900E46C5B /* Frameworks */,
 				B0A848CE1FFF42C900E46C5B /* Resources */,
+				E790A2E098EDAA166ADC7D3F /* [CP] Embed Pods Frameworks */,
+				1C81BB78D25558B91DD0AF96 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,12 +308,163 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0757A8A8ABA64B6626E7F692 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-URLog/Pods-URLog-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C81BB78D25558B91DD0AF96 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-URLogUITests/Pods-URLogUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48C3FCFA40B169A7C721E5FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-URLogTests/Pods-URLogTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		764F6B1499DFB0B4ADD5C469 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-URLogTests/Pods-URLogTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AA648B750AA08A5B3BBB99C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-URLogTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		832405C2E1FC1D91D75C07B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-URLog/Pods-URLog-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Magnet/Magnet.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Magnet.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-URLog/Pods-URLog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A88554C56975F935C0CB4602 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-URLogUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D54367A654A2E247FD0FDFC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-URLog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E790A2E098EDAA166ADC7D3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-URLogUITests/Pods-URLogUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B0A848AF1FFF42C800E46C5B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B0A848B91FFF42C800E46C5B /* ViewController.swift in Sources */,
+				B0A5C0F6202E8C1A00CAC54E /* GlobalShortCut.swift in Sources */,
 				B0A848B71FFF42C800E46C5B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +620,7 @@
 		};
 		B0A848DA1FFF42C900E46C5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 545053064E29EB84B38E1B87 /* Pods-URLog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = URLog/URLog.entitlements;
@@ -429,6 +637,7 @@
 		};
 		B0A848DB1FFF42C900E46C5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B148336DDB511B6B777E0C4F /* Pods-URLog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = URLog/URLog.entitlements;
@@ -445,6 +654,7 @@
 		};
 		B0A848DD1FFF42C900E46C5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEED9F17AB2655D89D395DC9 /* Pods-URLogTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +672,7 @@
 		};
 		B0A848DE1FFF42C900E46C5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F761C48AA50DAE55BD23E629 /* Pods-URLogTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -479,6 +690,7 @@
 		};
 		B0A848E01FFF42C900E46C5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DF44409BCFD90511700F672 /* Pods-URLogUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -495,6 +707,7 @@
 		};
 		B0A848E11FFF42C900E46C5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1744A51E47A86D9031472A65 /* Pods-URLogUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
